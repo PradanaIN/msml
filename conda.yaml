@@ -1,0 +1,22 @@
+name: msml-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - seaborn
+      - scikit-learn
+      - mlflow
+      - fastapi
+      - uvicorn
+      - prometheus_client
+      - python-multipart
+      - requests
+      - joblib
+      - pyyaml
+      - httpx
